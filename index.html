@@ -14,8 +14,11 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+
+  
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,33 +37,68 @@
 	</div>
 	<section id="hero">
 			<div class="hero-block">
-				<img class="img-circle" src="assets/img/logo.png" width="200" height="200" class="mb-7 hero-image">
-				<p>Hi, I'm Albert. Welcome to my small site.<br/>
-				It is extremely easy to configure and use. Designed to show your Dribbble shots.<br/>
-				No complex stuff. Your logo, your shots & your social links. Easy stuff!</p>
+				<img class="img-circle" src="assets/img/logo.jpg" width="200" height="200" class="mb-7 hero-image">
+				<p>Hi, I'm Albert. Welcome to my tiny site.<br/>
+                 I can do game development and networking<br/>
+				Currently, I'm really interested in game development.<br/>
+				These are my latest projects, and of course these are still growing up</p>
 			</div>
 		<a href="index.html#work" class="scroll"><span class="down-arrow"></span></a>
 	</section>
 	
 	
-	<section id="work">
-		<div class="showcase">
-			<div class="showcase-tiles">
-				<ul class="slides">
-					<!--Dribbble feed-->	
-				</ul>
-			</div>
-			<div class="showcase-info">
-				<h2 class="mb-7">Follow me on Dribbble!</h2>
-			</div>
-		</div>
+	<section id="work" class="container-fluid text-center bg-grey">
+		<div id="myCarouselPo" class="carousel slide text-center" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarouselPo" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarouselPo" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div style="text-align:center;">
+<img src="assets/img/2.png" width="500" height="300" alt="Cinque Terre">
+
+            </div>
+                   <div class="btnDwnload">  <button type="button" onclick="location.href='https://drive.google.com/open?id=0B8UuC95BtckrUmFCZHk4UEtwUkU'" class="btn btn-success btn-lg">Timmy's Challenges</button>  <button type="button" onclick="location.href='https://drive.google.com/open?id=0B8UuC95BtckrTWs0WmZxbU41RkE'" class="btn btn-success btn-lg">+JPS analysis</button></div>
+          <h4>Timmy's Challenges<br><span class="keterangan" style="font-style:normal;">A maze game with Jump Point Search algorithm implementation on NPCs</span> </h4>
+          </div>
+         
+          <div class="item">
+            <div style="text-align:center;">
+	 <img src="assets/img/1.png" width="500" height="300" alt="Cinque Terre">
+            </div>
+            <div class="btnDwnload">  <button onclick="location.href='https://play.google.com/store/apps/details?id=com.AIWGames.AdventuresOfMiguel'  " type="button" class="btn btn-success btn-lg">Google Play</button></div>
+            
+            <h4>The Adventures of Miguel<br><span class="keterangan" style="font-style:normal;">Miguel needs to escape from dangerous places. However, it's not an easy job, there are many creepy creatures and obstacles in those places</span></h4>
+          </div>
+<br><br>
+        </div>
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarouselPo" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarouselPo" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 	</section>
 	
 	
 	<section id="networks">
 		<div class="container">
+		<p >
+        say hello to me?
+      </p>
+      <br>
+
 			<p>
-				<a href="#"><i class="dribbble fa fa-dribbble"></i></a><a href="#"><i class="facebook fa fa-facebook"></i></a><a href="#"><i class="twitter fa fa-twitter"></i></a><a href="#"><i class="mail fa fa-envelope"></i></a>
+				<a href="mailto:albertusiw@gmail.com?Subject=Hello%20Albert"><i class="mail fa fa-envelope"></i></a>
+				<div class="email">albertusiw@gmail.com</div>
 			</p>
 
 		</div>
